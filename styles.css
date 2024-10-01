@@ -1,0 +1,84 @@
+.board{
+    display:flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width:900px;
+    height:620px;
+    background-image: linear-gradient(green, white, green);
+}
+.carta{
+    display:block;
+    width:200px;
+    height:281px;
+    background-image: url("./img/fundocarta.png");
+    margin-top:24px;
+}
+.nome_carta{
+    margin-top:14px;
+    margin-left:20px;
+}
+.tipo{
+    margin-top:124px;
+    margin-left:20px;
+}
+.simbolo{
+    margin-top:-32px;
+    margin-left:166px;
+}
+.habilidade{
+    margin-top:-12px;
+   margin-left:20px;
+}
+.poder{
+   margin-top:28px;
+   margin-left:150px;
+}
+.ilustracao{
+    position: absolute; /* Posição relativa à .container */
+    top: 59px; /* Ajusta a posição da imagem */
+    left: 33px; /* Ajusta a posição da imagem */
+    z-index: 1; /* Garante que a imagem fique sobre a div */
+}
+.ilustracao1{
+    position: absolute; /* Posição relativa à .container */
+    top: 59px; /* Ajusta a posição da imagem */
+    left: 258px; /* Ajusta a posição da imagem */
+    z-index: 1; /* Garante que a imagem fique sobre a div */
+}
+.ilustracao2{
+    position: absolute; /* Posição relativa à .container */
+    top: 59px; /* Ajusta a posição da imagem */
+    left: 485px; /* Ajusta a posição da imagem */
+    z-index: 1; /* Garante que a imagem fique sobre a div */
+}
+.ilustracao3{
+    position: absolute; /* Posição relativa à .container */
+    top: 59px; /* Ajusta a posição da imagem */
+    left: 712px; /* Ajusta a posição da imagem */
+    z-index: 1; /* Garante que a imagem fique sobre a div */
+}
+.ilustracao4{
+    position: absolute; /* Posição relativa à .container */
+    top: 364px; /* Ajusta a posição da imagem */
+    left: 33px; /* Ajusta a posição da imagem */
+    z-index: 1; /* Garante que a imagem fique sobre a div */
+}
+.ilustracao5{
+    position: absolute; /* Posição relativa à .container */
+    top: 364px; /* Ajusta a posição da imagem */
+    left: 258px; /* Ajusta a posição da imagem */
+    z-index: 1; /* Garante que a imagem fique sobre a div */
+}
+.ilustracao6{
+    position: absolute; /* Posição relativa à .container */
+    top: 364px; /* Ajusta a posição da imagem */
+    left: 485px; /* Ajusta a posição da imagem */
+    z-index: 1; /* Garante que a imagem fique sobre a div */
+}
+.ilustracao7{
+    position: absolute; /* Posição relativa à .container */
+    top: 364px; /* Ajusta a posição da imagem */
+    left: 712px; /* Ajusta a posição da imagem */
+    z-index: 1; /* Garante que a imagem fique sobre a div */
+}
